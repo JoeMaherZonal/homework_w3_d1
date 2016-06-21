@@ -154,11 +154,12 @@
   -- (1 row)
 
   --Answer 16
-  -- SELECT users.name FROM users WHERE users.name LIKE 'A%';
-  --       name      
-  -- ----------------
-  --  Ashleigh Adams
-  -- (1 row)
+ --  SELECT users.name FROM users WHERE users.name LIKE 'N%';
+ --       name       
+ -- -----------------
+ --  Nico di Lillo
+ --  Natalie Simpson
+ -- (2 rows)
 
   --Answer 17
   -- SELECT name FROM users WHERE name LIKE '%' || 'er' || '%';
